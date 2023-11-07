@@ -28,8 +28,8 @@
   },
   "education": [
     {
-      "endDate": "2000",
-      "startDate": "2004",
+      "endDate": "2004",
+      "startDate": "2000",
       "area": "Computer Science",
       "studyType": "Bachelors",
       "institution": "University of Maryland"
