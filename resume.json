@@ -1,0 +1,127 @@
+{
+  "meta": {
+    "theme": "elegant"
+  },
+  "basics": {
+    "name": "Kevin Nacios",
+    "label": "Software Engineer",
+    "image": "https://gravatar.com/userimage/25395569/e837a77efa948a0b95ae5e032af51417.jpeg?size=256",
+    "website": "https://nacios.net",
+    "email": "kevin.nacios@gmail.com",
+    "location": {
+      "city": "Annandale",
+      "region": "VA",
+      "countryCode": "US"
+    },
+    "profiles": [
+      {
+        "url": "https://github.com/ragnarok56",
+        "username": "ragnarok56",
+        "network": "github"
+      },
+      {
+        "url": "https://www.linkedin.com/in/kevinnacios",
+        "username": "kevinnacios",
+        "network": "linkedin"
+      }
+    ]
+  },
+  "education": [
+    {
+      "endDate": "2000",
+      "startDate": "2004",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "institution": "University of Maryland"
+    }
+  ],
+  "skills": [
+    {
+      "keywords": [
+        "HTML / JSX",
+        "SCSS / CSS",
+        "Typescript / Javascript",
+        "React",
+        "Redux",
+        "Django",
+        "Webpack"
+      ],
+      "level": "++",
+      "name": "Frontend"
+    },
+    {
+      "keywords": ["Python", "C#"],
+      "level": "++",
+      "name": "Backend"
+    },
+    {
+      "keywords": ["Scala", "Java", "Rust"],
+      "level": "+",
+      "name": "Backend"
+    },
+    {
+      "keywords": [
+        "Ansible",
+        "Terraform",
+        "Git",
+        "Github",
+        "Docker",
+        "Prometheus",
+        "Grafana",
+        "HAProxy",
+        "Nomad",
+        "Consul",
+        "Vault"
+      ],
+      "level": "++",
+      "name": "DevOps / SRE"
+    },
+    {
+      "keywords": ["Apache Spark", "DeltaLake", "Hadoop HDFS", "Hadoop YARN", "Apache NiFi"],
+      "level": "++",
+      "name": "Big Data Stuff"
+    },
+    {
+      "keywords": ["Elasticsearch", "Postgres", "SQL"],
+      "level": "++",
+      "name": "Databases"
+    },
+    {
+      "keywords": ["Openstack", "Ceph", "AWS"],
+      "level": "++",
+      "name": "Cloud"
+    }
+  ],
+  "work": [
+    {
+      "name": "Maxar",
+      "location": "VA",
+      "position": "Principal Software Engineer",
+      "startDate": "2015-12",
+      "summary": "Currently a team lead / architect of a big data platform consisting of Hadoop/Yarn/Spark, Elasticsearch and Openstack using ansible and terraform. I'm involved in hardware configuration/purchasing decisions, devops and sre roles, sharing my knowledge with team members, data pipeline ETL, app development, ci/cd deployments, etc. I deploy, configure and maintain several Openstack environments w/ openstack‐ansible and Ceph, monitor everything with Prometheus/Grafana, and configured alerts across infrastructure, data ETL and applications. Build data pipelines using Apache NiFi, HDFS, Apache Spark and Elasticsearch to process raw data to DeltaLake format and then indexed to Elasticsearch. I develop, deploy and maintain apps to support analysts requirements which are dockerized and deployed to Nomad clusters",
+      "highlights": [
+        "Designed and developed a clientside federated search application with Django, React, Redux and Typescript. The app uses client PKI certs for authentication and aggregates results from multiple sources into single view. Setup AWS/OpenStack hosted environment to integrate our search capability with other applications for a unified user experience.",
+        "Created a data ingest pipeline and visualization that performed object detection in video. Achieved a goal of processing a ~5 min video in under a minute using multiple GPUs and parallel processing using YOLO, python and C. Visualized hundreds of thousands of detects and tracks over multiple processed videos using cesiumjs and ElasticSearch.",
+        "Worked on a project that rendered geo points as heatmaps in a 3D desktop visualization application. One of the goals was to apply data blending techniques using multiple sources of data, which was achieved by ingesting and enriching the original dataset and adding a generic geohash filtering capability that allowed for multiple external datasets to be used to dynamically alter the visualization. Enhanced the heatmap display to render by aggregated fields and metrics of the data."
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "location": "VA",
+      "position": "Software Engineer",
+      "startDate": "2006",
+      "endDate": "2015",
+      "summary": "I worked on everything from database modeling and optimizations, writing and refactoring backend code and services, creating desktop and web UIs, and interfacing directly with customers. Learned quickly about the software baseline and agile development, implemented features, fixed bugs, refactored code. Rewrote numerous components and UIs from VB6 to C#/WPF, which involved keeping many of the C# libraries COM visible to still operate with legacy VB6 software. I pushed for MVVM to be the leading design model for building WPF projects across the program, gave talks and taught other developers about structuring applications and data binding.",
+      "highlights": [
+        "Led design and development of a web site that enabled customers to get insight into the system and a new level of access to submit and verify their requests. I started the project not knowing anything about web development outside of the most basic HTML and quickly learned javascript, MVC, jquery and knockout to try and build a great user experience. Led numerous demonstrations and learning sessions with multiple customers who used the website. Quickly responded to requests and requirements updates based off feedback.",
+        "Developed an initial capability to interact with other systems using soap/rest using a combination of WCF and WebAPI, and planned and designed a REST service to be deployed alongside the website for customers."
+      ]
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Security+",
+      "date": "2022-02"
+    }
+  ]
+}
