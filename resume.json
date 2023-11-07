@@ -97,8 +97,9 @@
       "name": "Maxar",
       "location": "VA",
       "position": "Principal Software Engineer",
-      "startDate": "2015-12",
-      "summary": "Currently a team lead / architect of a big data platform consisting of Hadoop/Yarn/Spark, Elasticsearch and Openstack using ansible and terraform. I'm involved in hardware configuration/purchasing decisions, devops and sre roles, sharing my knowledge with team members, data pipeline ETL, app development, ci/cd deployments, etc. I deploy, configure and maintain several Openstack environments w/ openstack‐ansible and Ceph, monitor everything with Prometheus/Grafana, and configured alerts across infrastructure, data ETL and applications. Build data pipelines using Apache NiFi, HDFS, Apache Spark and Elasticsearch to process raw data to DeltaLake format and then indexed to Elasticsearch. I develop, deploy and maintain apps to support analysts requirements which are dockerized and deployed to Nomad clusters",
+      "startDate": "2015",
+      "pinned": true,
+      "summary": "Currently the tech lead of a big data platform consisting of Hadoop/Yarn/Spark, Elasticsearch and Openstack using ansible and terraform. I'm involved in hardware configuration/purchasing decisions, devops and sre roles, sharing my knowledge with team members, data pipeline ETL, app development, and ci/cd deployments.  I deploy, configure and maintain several Openstack environments with openstack-ansible and Ceph, monitor everything with Prometheus and Grafana, and configured alerts across infrastructure, data ETL and applications. I build data pipelines using Apache NiFi, HDFS, Apache Spark and Elasticsearch to process raw data to DeltaLake format and then indexed to Elasticsearch. I develop, deploy and maintain apps to support analysts requirements which are dockerized and deployed to Nomad clusters",
       "highlights": [
         "Designed and developed a clientside federated search application with Django, React, Redux and Typescript. The app uses client PKI certs for authentication and aggregates results from multiple sources into single view. Setup AWS/OpenStack hosted environment to integrate our search capability with other applications for a unified user experience.",
         "Created a data ingest pipeline and visualization that performed object detection in video. Achieved a goal of processing a ~5 min video in under a minute using multiple GPUs and parallel processing using YOLO, python and C. Visualized hundreds of thousands of detects and tracks over multiple processed videos using cesiumjs and ElasticSearch.",
@@ -108,14 +109,34 @@
     {
       "name": "Lockheed Martin",
       "location": "VA",
-      "position": "Software Engineer",
-      "startDate": "2006",
+      "position": "Senior Software Engineer",
+      "startDate": "2011",
       "endDate": "2015",
       "summary": "I worked on everything from database modeling and optimizations, writing and refactoring backend code and services, creating desktop and web UIs, and interfacing directly with customers. Learned quickly about the software baseline and agile development, implemented features, fixed bugs, refactored code. Rewrote numerous components and UIs from VB6 to C#/WPF, which involved keeping many of the C# libraries COM visible to still operate with legacy VB6 software. I pushed for MVVM to be the leading design model for building WPF projects across the program, gave talks and taught other developers about structuring applications and data binding.",
       "highlights": [
         "Led design and development of a web site that enabled customers to get insight into the system and a new level of access to submit and verify their requests. I started the project not knowing anything about web development outside of the most basic HTML and quickly learned javascript, MVC, jquery and knockout to try and build a great user experience. Led numerous demonstrations and learning sessions with multiple customers who used the website. Quickly responded to requests and requirements updates based off feedback.",
         "Developed an initial capability to interact with other systems using soap/rest using a combination of WCF and WebAPI, and planned and designed a REST service to be deployed alongside the website for customers."
       ]
+    },
+    {
+      "name": "BR Instrument",
+      "position": "Software Consultant",
+      "startDate": "2014-04",
+      "endDate": "2015-12",
+      "summary": "Developing frontend UI using WPF for control/monitoring system. This is an effort to replace difficult to maintain legacy code and re‐enter the market with a sleek, updated UI and backend that can be configured to support multiple system types.  Backend is written in python and uses websockets to handle pushing updates to the GUI. Implemented a very trimmed down version of a WAMP protocol to handle RPC calls using websockets from the GUI to the server to ensure message traffic is tracked and handled correctly.",
+      "highlights": [
+        "OxyPlot for graphing realtime data",
+        "MahApps.Metro for WPF styles and controls",
+        "WPF Localization Extensions for multi-lingual support"
+      ]
+    },
+    {
+      "name": "Lockheed Martin",
+      "location": "VA",
+      "position": "Software Engineer / IT Admin",
+      "startDate": "2006",
+      "endDate": "2011",
+      "summary": "I fixed dozens of bugs, analyzed and resolved critical ops issues during normal and off-hour call-ins and phone support. Supported major ops deployments during 24/7 shift coverage windows.  Became a team lead after a few years in charge of supporting multiple dev/test environments, coordinated, deconflicted test and ops hardware/software migrations, first line call in support."
     }
   ],
   "certificates": [
